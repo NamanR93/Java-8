@@ -15,6 +15,10 @@ public class File91 {
     Function<String, String> fun3 = Function.identity();
     System.out.println(fun3.apply("naman"));
 
+    Function<Integer, Integer> identity = Function.identity();
+    Integer res = identity.apply(5);
+    System.out.println(res);
+
   }
 
 }
